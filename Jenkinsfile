@@ -2,7 +2,7 @@
     agent any
     tools{
         maven 'MAVEN-3.6.3'
-        jdk 'JDK11'
+        jdk 'JDK 15'
     }
     stages {
         stage('Build') {
