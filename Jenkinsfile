@@ -37,12 +37,12 @@
            {
               steps{
                     rtUpload (
-                        serverId: 'artifactory-server',
+                        serverId: 'ARTIFACTORY_SERVER',
                             spec: '''{
                                 "files": [
                                 {
                                     "pattern": "target/*.jar",
-                                    "target": "art-doc-dev-loc"
+                                    "target": "art-doc2-dev-loc"
                                 }
                                 ]
                             }''',
