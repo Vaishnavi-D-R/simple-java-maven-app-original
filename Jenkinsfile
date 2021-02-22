@@ -20,11 +20,6 @@
                 }
             }
         }
-        stage('Deliver') {
-            steps {
-                sh './jenkins/scripts/deliver.sh'
-            }
-        }
         stage("build & SonarQube analysis") {
             agent any
             steps {
